@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/LinearLayoutMain"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:orientation="vertical"
+   android:paddingLeft="16dp"
+   android:paddingRight="16dp"
+   android:gravity="center" >
+
+	<TextView
+		android:id="@+id/runCPUInfo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="40,41,42,43,44,45,46,47,48,49,50" />
+
+   <EditText
+	android:id="@+id/runCPUInputEdit"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:hint="Which Prime to Find"
+	android:width="200px" />
+
+	<Button
+		android:id="@+id/buttonSimpleCPU"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Perform CPU Task" />
+
+	<Button
+		android:id="@+id/buttonThreadsCPU"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Perform CPU Thread Task" />
+
+	<Button
+		android:id="@+id/buttonActorsCPU"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Perform CPU Actors Task" />
+
+	<Button
+		android:id="@+id/buttonCoroutinesCPU"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Perform CPU Coroutines Task" />
+
+
+	<TextView
+		android:id="@+id/Space"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="" />
+
+	<TextView
+		android:id="@+id/runIOInfo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="250,260,270,280,290,300,310,320,330,340,350" />
+
+   <EditText
+	android:id="@+id/runIOInputEdit"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:hint="Number Of Files to Process"
+	android:width="200px" />
+
+	<Button
+		android:id="@+id/buttonSimpleIO"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Perform IO Task" />
+
+	<Button
+		android:id="@+id/buttonThreadsIO"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Perform IO Thread Task" />
+
+	<Button
+		android:id="@+id/buttonActorsIO"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Perform IO Actors Task" />
+
+	<Button
+		android:id="@+id/buttonCoroutinesIO"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Perform IO Coroutines Task" />
+
+</LinearLayout >
